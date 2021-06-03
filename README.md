@@ -10,3 +10,7 @@ GOALS
 
 004_currency_converter.py
 - needs rework - change the source of currency conversion data - rewrite this code
+
+007_builtin_dialogs.py
+- Need to figure out more ways to open Dialogs and Forms from one of the Forms (dumb dialogs, standard dialogs?)
+

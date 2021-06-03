@@ -27,11 +27,14 @@ class Form(QDialog):
     def __init__(self, parent=None):
         super(Form, self).__init__(parent)
 
+        # Initialize a dial
         self.dial = QDial()
         self.dial.setNotchesVisible(True)
 
+        # Initialize a ZeroSpinBox - a custom SpinBox that you created above
         self.zerospinbox = ZeroSpinBox()
 
+        # Set the layout
         layout = QHBoxLayout()
         layout.addWidget(self.dial)
         layout.addWidget(self.zerospinbox)
@@ -45,6 +48,7 @@ class Form(QDialog):
 
         self.setWindowTitle("Signals and Slots")
 
+    # Define the callback for the ATZERO signal from the ZEROSPINBOX
     def announce(self, zeros, nulls):
         print("ZeroSpinbox has been at zero: " + str(zeros) + " times")
         print("Another parameter that can be passed: " + str(nulls))
