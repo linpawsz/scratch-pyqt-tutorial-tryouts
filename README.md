@@ -7,3 +7,6 @@ GOALS
 -----  
 002_pop_up_window.py  
 - create a transparent timer? - or a clock that overlays on top of all windows?  
+
+004_currency_converter.py
+- needs rework - change the source of currency conversion data - rewrite this code
