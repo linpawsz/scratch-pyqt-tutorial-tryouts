@@ -51,7 +51,8 @@ class WorkerThread(QThread):
     # Overriding the built-in method run
     def run(self):
         time.sleep(5)
-        self.my_signal.emit("Confirmation that the thread is finished...")  # Qt.DirectConnection - doesn't matter what int you pass in emit - makes no sense
+        self.my_signal.emit("Confirmation that the thread is finished...")
+        # Qt.DirectConnection - doesn't matter what int you pass in emit - makes no sense
         print("Done with the thread.")
 
 
