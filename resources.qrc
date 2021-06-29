@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="">
+        <file>icons/avocado.png</file>
+        <file>icons/chicken.png</file>
+        <file>icons/crocodile.png</file>
+        <file>icons/pizza.png</file>
+    </qresource>
+</RCC>
